@@ -1,0 +1,27 @@
+name: todo
+description: "A new Flutter project."
+
+# publish_to: 'none'  # Bu satırı kaldırabilirsiniz veya bir depoya yayınlayacağınız adresi belirtebilirsiniz.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.0.0
+  sqflite_common_ffi: ^2.0.0
+  cupertino_icons: ^1.0.2
+  hexcolor: ^3.0.1
+  http: ^1.2.0
+  path: ^1.8.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
